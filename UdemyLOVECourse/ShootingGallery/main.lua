@@ -43,9 +43,6 @@ function love.draw()
 
     love.graphics.draw(sprites.sky, 0, 0)
 
-    -- love.graphics.setColor(1,0,0)
-    -- love.graphics.circle("fill", target.x, target.y, target.radius)    
-
     love.graphics.setColor(1, 1, 1)
     love.graphics.setFont(gameFont)
     love.graphics.print('score: ' .. score, 0, 0)
